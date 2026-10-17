@@ -1,25 +1,38 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Math with Rahmat Sir - Result Portal</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Math with Rahmat Sir - Result Portal</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+  <div class="container">
+    <h1>Math with Rahmat Sir</h1>
+    <h2>Class Test Result Portal</h2>
 
-<div class="container">
-<h1>Math with Rahmat Sir</h1>
-<h2>Class Test Result Portal</h2>
+    <div class="search-box">
+      <label for="testType">Select Test</label>
+      <select id="testType">
+        <option value="math">Math Test</option>
+        <option value="english">English Vocabulary Test</option>
+      </select>
 
-<input type="text" id="name" placeholder="Enter Student Name">
+      <input
+        type="text"
+        id="name"
+        placeholder="Enter Student Name"
+        autocomplete="off"
+      >
 
-<button onclick="searchResult()">Check Result</button>
+      <button onclick="searchResult()">Check Result</button>
+    </div>
 
-<div id="result"></div>
-</div>
+    <div id="result"></div>
+  </div>
 
-<script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>
