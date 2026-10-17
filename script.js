@@ -82,7 +82,8 @@ function searchResult() {
     result.innerHTML = `
       <div class="scorecard">
         <h2>English Vocabulary Test</h2>
-        <h3>${key}</h3>
+        <img src="${key === 'Arifa Rahmani' ? 'Arifa.png' : key + '.png'}" alt="${key}" class="student-photo">
+<h3>${key}</h3>
         <p><b>Marks:</b> ${s.marks}${typeof s.marks === "number" ? " / 50" : ""}</p>
         <p><b>Rank:</b> ${s.rank}</p>
         <p><b>Percentage:</b> ${percentage}${percentage !== "--" ? "%" : ""}</p>
@@ -94,7 +95,8 @@ function searchResult() {
     result.innerHTML = `
       <div class="scorecard">
         <h2>Math Test Result</h2>
-        <h3>${key}</h3>
+        <img src="${key === 'Arifa Rahmani' ? 'Arifa.png' : key + '.png'}" alt="${key}" class="student-photo">
+<h3>${key}</h3>
         <p><b>Marks:</b> ${s.marks}${typeof s.marks === "number" ? " / 50" : ""}</p>
         <p><b>Rank:</b> ${s.rank}</p>
         <p><b>Status:</b> ${s.status}</p>
