@@ -48,3 +48,12 @@ button:hover{
     background:#f8f9fa;
     border-radius:8px;
 }
+.student-photo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 15px;
+  border: 3px solid #1d4ed8;
+}
