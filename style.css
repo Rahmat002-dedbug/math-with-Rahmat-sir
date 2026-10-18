@@ -50,7 +50,7 @@ button:hover{
 }#result .student-photo {
 #result .student-photo {
   width: 70px !important;
-  height: 88px !important;
+  height: 88px !important; to height: 56px !important;.
   max-width: 100% !important;
   object-fit: cover;
   object-position: center;
