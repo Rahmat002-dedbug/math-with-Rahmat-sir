@@ -60,3 +60,11 @@ button:hover{
   border: 2px solid #1d4ed8;
 }
     
+#result img.student-photo {
+  width: 70px !important;
+  height: 56px !important;
+  max-width: 70px !important;
+  display: block;
+  object-fit: cover;
+}
+    
