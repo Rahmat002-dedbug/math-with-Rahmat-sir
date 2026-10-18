@@ -48,10 +48,10 @@ button:hover{
     background:#f8f9fa;
     border-radius:8px;
     #result img {
-    width: 65px !important;
-    height: 65px !important;
-    max-width: 65px !important;
-    min-width: 65px !important;
+    width: 90px !important;
+    height: 90px !important;
+    max-width: 90px !important;
+    min-width: 90px !important;
     object-fit: cover !important;
     display: inline-block !important;
     vertical-align: middle;
