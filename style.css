@@ -49,8 +49,8 @@ button:hover{
     border-radius:8px;
 }#result .student-photo {
 #result .student-photo {
-  width: 70px !important;
-  height: 56px !important;    
+  width: 50px !important;
+  height: 40px !important;    
   max-width: 100% !important;
   object-fit: cover;
   object-position: center;
@@ -61,9 +61,9 @@ button:hover{
 }
     
 #result img.student-photo {
-  width: 70px !important;
-  height: 56px !important;
-  max-width: 70px !important;
+  width: 50px !important;
+  height: 40px !important;
+  max-width: 50px !importan
   display: block;
   object-fit: cover;
 }
