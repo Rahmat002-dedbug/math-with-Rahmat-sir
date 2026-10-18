@@ -95,8 +95,7 @@ function searchResult() {
       <div class="scorecard">
         <h2>Math Test Result</h2>
   class="student-photo" style="width:50px;height:40px;max-width:50px;object-fit:cover;display:block;"      
-<h3>${key}</h3>
-        <p><b>Marks:</b> ${s.marks}${typeof s.marks === "number" ? " / 50" : ""}</p>
+  <img src="${key === 'Arifa Rahmani' ? 'Arifa.png' : key + '.png'}" alt="${key}" class="student-photo">
         <p><b>Rank:</b> ${s.rank}</p>
         <p><b>Status:</b> ${s.status}</p>
         <p><b>Remarks:</b> ${s.remarks}</p>
