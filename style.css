@@ -47,18 +47,16 @@ button:hover{
     padding:15px;
     background:#f8f9fa;
     border-radius:8px;
-    
-  #result img {
-    width: 40px !important;
-    height: 40px !important;
-    max-width: 40px !important;
-    min-width: 40px !important;
+    #result img {
+    width: 65px !important;
+    height: 65px !important;
+    max-width: 65px !important;
+    min-width: 65px !important;
     object-fit: cover !important;
     display: inline-block !important;
     vertical-align: middle;
-    margin: 2px !important;
-    border-radius: 4px;
-  }
-    
+    margin: 3px !important;
+    border-radius: 5px;
+    }
     
     
