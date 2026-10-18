@@ -48,14 +48,12 @@ button:hover{
     background:#f8f9fa;
     border-radius:8px;
     #result img {
-    width: 120px !important;
-    height: 120px !important;
-    max-width: 120px !important;
-    min-width: 120px !important;
+    width: 150px !important;
+    height: 150px !important;
+    max-width: 150px !important;
+    min-width: 150px !important;
     object-fit: cover !important;
-    display: inline-block !important;
-    vertical-align: middle;
-    margin: 4px !important;
-    border-radius: 6px;
+    display: block !important;
+    margin: 10px 0 !important;
+    border-radius: 8px;
     }
-    
