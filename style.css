@@ -48,12 +48,11 @@ button:hover{
     background:#f8f9fa;
     border-radius:8px;
 
-
 #result img {
-  width: 100px !important;
-  height: 100px !important;
-  max-width: 100% !important;
-  object-fit: cover;
+  width: 40px !important;
+  height: 40px !important;
+  max-width: 40px !important;
+  object-fit: cover !important;
   object-position: center;
   display: block;
   margin: 10px 0;
